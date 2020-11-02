@@ -325,7 +325,7 @@ const theme = {
         right: 'auto',
         zIndex: 'auto',
         lineHeight: 'normal',
-        color: '#FFFFFF'
+        color: '#000000'
     },
     select: {
         background: 'transparent',

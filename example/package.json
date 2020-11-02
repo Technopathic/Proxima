@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "proxima": "link:..",
-    "proxima-ui": "^1.0.1",
+    "proxima-ui": "^1.0.2",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-router-dom": "^5.2.0",
