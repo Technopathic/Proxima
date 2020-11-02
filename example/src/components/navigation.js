@@ -26,8 +26,8 @@ const Navigation = (props) => {
                 </Column>
                 <List padding="0px 15px" type="none">
                     <ListItem margin="10px 0px 0px 0px">
-                        <Link to="/" style={{textDecoration:'none'}}>
-                            <A href="/" 
+                        <Link to="/Proxima" style={{textDecoration:'none'}}>
+                            <A href="/Proxima" 
                                 padding="10px" 
                                 hoverColor="#000000" 
                                 hoverBackground="rgba(242, 68, 132, 0.2)" 
@@ -38,8 +38,8 @@ const Navigation = (props) => {
                         </Link>
                     </ListItem>
                     <ListItem margin="10px 0px 0px 0px">
-                        <Link to="/Layout" style={{textDecoration:'none'}}>
-                            <A href="/Layout" 
+                        <Link to="/Proxima/Layout" style={{textDecoration:'none'}}>
+                            <A href="/Proxima/Layout" 
                                 padding="10px" 
                                 hoverColor="#000000"
                                 hoverBackground="rgba(242, 68, 132, 0.2)" 
@@ -50,8 +50,8 @@ const Navigation = (props) => {
                         </Link>
                     </ListItem>
                     <ListItem margin="10px 0px 0px 0px">
-                        <Link to="/Artboards" style={{textDecoration:'none'}}>
-                            <A href="/Artboards" 
+                        <Link to="/Proxima/Artboards" style={{textDecoration:'none'}}>
+                            <A href="/Proxima/Artboards" 
                                 padding="10px" 
                                 hoverColor="#000000" 
                                 hoverBackground="rgba(242, 68, 132, 0.2)" 
@@ -67,6 +67,7 @@ const Navigation = (props) => {
                             hoverColor="#000000" 
                             hoverBackground="rgba(242, 68, 132, 0.2)" 
                             radius="5px"
+                            target="_blank"
                         >
                             Github
                         </A>

@@ -19,13 +19,13 @@ const App = () => {
     <Router>
       <Proxima theme={theme} global={global}>
         <Switch>
-        <Route path="/Artboards">
+        <Route path="/Proxima/Artboards">
             <Artboards />
           </Route>
-          <Route path="/Layout">
+          <Route path="/Proxima/Layout">
             <Layout />
           </Route>
-          <Route path="/">
+          <Route path="/Proxima">
             <Home />
           </Route>
         </Switch>

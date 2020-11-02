@@ -42,7 +42,7 @@ const Icon = (props) => {
         margin: ${margin ? margin : theme.icon.margin};
         flex-grow:${flexGrow ? flexGrow : theme.icon.flexGrow};
         fill: ${fill ? fill : theme.icon.fill} !important;
-        box-shadow: ${shadow ? shadow : theme.icon.shadow};
+        box-shadow: ${boxShadow ? shadow : theme.icon.shadow};
 
         &:hover {
             background: ${hoverBackground ? hoverBackground : background ? background : theme.icon.hoverBackground};

@@ -8631,17 +8631,16 @@ property-information@^5.0.0:
   dependencies:
     xtend "^4.0.0"
 
-proxima-ui@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/proxima-ui/-/proxima-ui-1.0.0.tgz#214eb73654c8b743219a629684b5565ffd6b9b54"
-  integrity sha512-MdGgaLi6LJlcZXUogxXQFCeX8HyiHhiDmpT2i1m1nTzC5b2BaYi6McijYfIwIDTLD1b8p9GEByDJQcchlv9kHw==
+proxima-ui@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/proxima-ui/-/proxima-ui-1.0.1.tgz#853e41460d57af0f3c87be0734f09c3c4e1b6562"
+  integrity sha512-93y6L3wJkrF+s0Zur+3d3g/PX2gfBRxylPchYSoSUSNeQ0rQORHD0mAIQeXwQFdpfeH9rH4E3mh5ooQVG9rfYA==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
     axios "^0.21.0"
     emotion "^10.0.27"
     emotion-theming "^10.0.27"
-    react-syntax-highlighter "^15.3.0"
 
 "proxima@link:..":
   version "0.0.0"
