@@ -17,7 +17,7 @@ import {
     WebM,
     WebL,
     WebXL
-  } from 'proxima'
+  } from 'proxima-ui'
   
 
 const Artboards = (props) => {

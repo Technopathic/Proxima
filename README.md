@@ -4,7 +4,7 @@
 
 # Proxima 
 
-[Documentation](#)
+[Documentation](https://technopathic.github.io/Proxima/)
 
 Proxima is my own UI System for making web and mobile interfaces easy to prototype. 
 
@@ -16,20 +16,24 @@ Proxima is my long-term on-going project. The UI system (Layout primitives) are 
 ## Getting Started
 You can install Proxima into your React or NextJS project by doing the following:
 ```
-npm install proxima --save
+npm install proxima-ui --save
+```
+
+```
+yarn add proxima-ui
 ```
 
 You'll need to wrap your root app in the Proxima component before using any of Proxima's components. The Proxima component also accepts props for a theme file and global style configuration.
 
 ```
-import Proxima from 'proxima'
+import Proxima from 'proxima-ui'
 
 const App = () => <Proxima>{...}</Proxima>
 ```
 
 You can then import any of Proxima's components right into your project and use their props to easily customize and adjust their styles.
 ```
-import { Main, H1, P } from 'proxima'
+import { Main, H1, P } from 'proxima-ui'
 
 const ExampleComponent = () => (
   <Main background="#08282c">

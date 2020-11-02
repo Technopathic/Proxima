@@ -8,7 +8,7 @@ import {
   Route
 } from "react-router-dom";
 
-import Proxima from 'proxima'
+import Proxima from 'proxima-ui'
 
 import Home from './pages/home'
 import Layout from './pages/layout'

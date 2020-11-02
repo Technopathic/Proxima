@@ -31,7 +31,6 @@ import Tag from './Layout/Tag'
 import { Table, Thead, Tbody, Th, Tr, Td } from './Layout/Table'
 
 import Cdn from './Components/Cdn'
-import Code from './Components/Code'
 import Drawer from './Components/Drawer'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
@@ -85,7 +84,6 @@ export {
     Tr,
     Td,
     Cdn,
-    Code,
     Drawer,
     Footer,
     Header,

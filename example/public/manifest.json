@@ -1,6 +1,6 @@
 {
-  "short_name": "proxima",
-  "name": "proxima",
+  "short_name": "proxima-ui",
+  "name": "proxima-ui",
   "icons": [
     {
       "src": "favicon.ico",

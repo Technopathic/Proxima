@@ -9,7 +9,7 @@ import {
     Divider,
     Media,
     Drawer
-} from 'proxima'
+} from 'proxima-ui'
   
 import { Link } from 'react-router-dom'
 
@@ -20,7 +20,7 @@ const Navigation = (props) => {
         <Drawer showFunc={setShow} show={show} sticky left maxWidth="300px" showBurger>
             <Aside background="#f4f5f7" width="300px" height="100vh" position="fixed">
                 <Column padding="15px 15px 0px 15px" alignItems="center">
-                    <Media src="/logo2.png" noWrapper outerWidth="30%" />
+                    <Media src="https://storage.googleapis.com/virgil-f3dca.appspot.com/logo2.png" noWrapper outerWidth="30%" />
                     <H2>Proxima</H2>
                     <Divider/>
                 </Column>
@@ -62,7 +62,7 @@ const Navigation = (props) => {
                         </Link>
                     </ListItem>
                     <ListItem margin="10px 0px 0px 0px">
-                        <A href="#" 
+                        <A href="https://github.com/Technopathic/Proxima" 
                             padding="10px" 
                             hoverColor="#000000" 
                             hoverBackground="rgba(242, 68, 132, 0.2)" 

@@ -19,7 +19,7 @@ import {
     Th,
     Tr,
     Td
-} from 'proxima'
+} from 'proxima-ui'
 
 import AProps from '../data/Layout/AProps.json'
 import AsideProps from '../data/Layout/AsideProps.json'
