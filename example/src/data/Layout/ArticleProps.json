@@ -1,0 +1,21 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["background", "transparent"]},
+        { "row": ["flexDirection", "column"]},
+        { "row": ["margin", "0px"]},
+        { "row": ["padding", "0px"]},
+        { "row": ["display", "flex"]},
+        { "row": ["color", "theme.color.textColor"]},
+        { "row": ["maxWidth", "theme.article.maxWidth"]},
+        { "row": ["lineHeight", "normal"]},
+        { "row": ["position", "static"]},
+        { "row": ["top", "auto"]},
+        { "row": ["bottom", "auto"]},
+        { "row": ["left", "auto"]},
+        { "row": ["right", "auto"]},
+        { "row": ["zIndex", "auto"]}
+    ]
+}

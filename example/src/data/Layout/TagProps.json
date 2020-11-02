@@ -1,0 +1,13 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["background", "#000000"]},
+        { "row": ["radius", "4px"]},
+        { "row": ["color", "#FFFFFF"]},
+        { "row": ["margin", "10px 5px 0px 0px"]},
+        { "row": ["padding", "3px 6px"]},
+        { "row": ["size", "18px"]}
+    ]
+}

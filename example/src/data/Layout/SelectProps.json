@@ -1,0 +1,26 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["background", "transparent"]},
+        { "row": ["color", "#000000"]},
+        { "row": ["width", "100%"]},
+        { "row": ["height", "auto"]},
+        { "row": ["padding", "15px 10px"]},
+        { "row": ["margin", "0px"]},
+        { "row": ["border", "1px solid #000000"]},
+        { "row": ["radius", "0px"]},
+        { "row": ["maxHeight", "none"]},
+        { "row": ["listRadius", "0px"]},
+        { "row": ["listShadow", "0px 0px 5px rgba(0, 0, 0, 0.1)"]},
+        { "row": ["listBackground", "#FFFFFF"]},
+        { "row": ["listOffset", "55px"]},
+        { "row": ["optionPadding", "15px 10px"]},
+        { "row": ["optionHoverBackground", "rgba(0, 0, 0, 0.1)"]},
+        { "row": ["optionHoverOpacity", "1"]},
+        { "row": ["optionHoverColor", "#000000"]},
+        { "row": ["disabledOptionOpacity", "0.6"]},
+        { "row": ["iconColor", "#777777"]}
+    ]
+}

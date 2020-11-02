@@ -1,0 +1,8 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["fontFamily", "theme.text.fontFamilyRegular"]}
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["maxWidth", "none"]},
+        { "row": ["columns", "repeat(3, 1fr)"]},
+        { "row": ["columnsTablet", "repeat(3, 1fr)"]},
+        { "row": ["columnsMobile", "repeat(3, 1fr)"]},
+        { "row": ["gap", "30px"]},
+        { "row": ["margin", "0 auto"]},
+        { "row": ["padding", "0px"]},
+        { "row": ["minHeight", "0px"]},
+        { "row": ["marginMobile", "0px"]},
+        { "row": ["paddingMobile", "0px"]}
+    ]
+}

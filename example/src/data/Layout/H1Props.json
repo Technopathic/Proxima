@@ -1,0 +1,18 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["size", "48px"]},
+        { "row": ["lineHeight", "68px"]},
+        { "row": ["color", "#000000"]},
+        { "row": ["margin", "0px"]},
+        { "row": ["padding", "0px"]},
+        { "row": ["textAlign", "left"]},
+        { "row": ["textTransform", "none"]},
+        { "row": ["fontFamily", "theme.text.fontFamilyHeading"]},
+        { "row": ["fontWeight", "700"]},
+        { "row": ["letterSpacing", "-2.5px"]}
+
+    ]
+}

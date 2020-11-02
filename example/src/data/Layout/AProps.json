@@ -1,0 +1,22 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["href", "null"]},
+        { "row": ["color", "#000000"]},
+        { "row": ["margin", "0px"]},
+        { "row": ["padding", "0px"]},
+        { "row": ["size", "16px"]},
+        { "row": ["alignItems", "stretch"]},
+        { "row": ["justifyContent", "flex-start"]},
+        { "row": ["flexGlexGrow", "0"]},
+        { "row": ["width", "auto"]},
+        { "row": ["height", "auto"]},
+        { "row": ["background", "transparent"]},
+        { "row": ["radius", "0px"]},
+        { "row": ["hoverBackground", "transparent"]},
+        { "row": ["hoverColor", "#000000"]},
+        { "row": ["hoverOpacity", "1"]}
+    ]
+}

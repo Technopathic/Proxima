@@ -1,0 +1,17 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["points", "true"]},
+        { "row": ["numbers", "false"]},
+        { "row": ["type", "theme.list.numbersType"]},
+        { "row": ["maxWidth", "theme.list.maxWidth"]},
+        { "row": ["margin", "0 auto"]},
+        { "row": ["padding", "0px"]},
+        { "row": ["flexDirection", "column"]},
+        { "row": ["justifyContent", "stretch"]},
+        { "row": ["alignItems", "flex-start"]},
+        { "row": ["flexWrap", "nowrap"]}
+    ]
+}

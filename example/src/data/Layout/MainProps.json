@@ -1,0 +1,21 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["background", "transparent"]},
+        { "row": ["flexDirection", "column"]},
+        { "row": ["margin", "0px"]},
+        { "row": ["padding", "0px"]},
+        { "row": ["alignItems", "stretch"]},
+        { "row": ["justifyContent", "flex-start"]},
+        { "row": ["width", "auto"]},
+        { "row": ["height", "auto"]},
+        { "row": ["minWidth", "0px"]},
+        { "row": ["minHeight", "0px"]},
+        { "row": ["maxWidth", "none"]},
+        { "row": ["maxHeight", "none"]},
+        { "row": ["marginMobile", "0px"]},
+        { "row": ["paddingMobile", "0px"]}
+    ]
+}

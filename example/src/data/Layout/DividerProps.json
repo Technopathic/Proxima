@@ -1,0 +1,12 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["height", "theme.divider.height" ]},
+        { "row": ["color", "#CCCCCC" ]},
+        { "row": ["marginTop", "15px" ]},
+        { "row": ["marginBottom", "15px" ]},
+        { "row": ["width", "100%" ]}
+    ]
+}

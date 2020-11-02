@@ -1,0 +1,10 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["background", "transparent"]},
+        { "row": ["flexDirection", "column"]},
+        { "row": ["maxWidth", "theme.article.maxWidth"]}
+    ]
+}

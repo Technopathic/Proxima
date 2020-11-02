@@ -1,0 +1,21 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["data", "{. . .}"]},
+        { "row": ["border", "none"]},
+        { "row": ["collapse", "false"]},
+        { "row": ["spacing", "2px"]},
+        { "row": ["width", "auto"]},
+        { "row": ["height", "auto"]},
+        { "row": ["minWidth", "0px"]},
+        { "row": ["minHeight", "0px"]},
+        { "row": ["maxWidth", "none"]},
+        { "row": ["maxHeight", "none"]},
+        { "row": ["margin", "0px"]},
+        { "row": ["padding", "0px"]},
+        { "row": ["color", "theme.color.tetColor"]},
+        { "row": ["cellWidth", "auto"]}
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "head": [
+        {"row": ["Props", "Default"]}
+    ],
+    "body": [
+        { "row": ["margin", "0 auto"]},
+        { "row": ["padding", "0px"]},
+        { "row": ["color", "theme.color.textColor"]},
+        { "row": ["background", "transparent"]},
+        { "row": ["rounded", "false"]},
+        { "row": ["circle", "false"]},
+        { "row": ["radius", "0px"]},
+        { "row": ["width", "100%"]},
+        { "row": ["height", "auto"]},
+        { "row": ["minWidth", "0px"]},
+        { "row": ["minHeight", "0px"]},
+        { "row": ["maxWidth", "none"]},
+        { "row": ["maxHeight", "none"]}
+    ]
+}
