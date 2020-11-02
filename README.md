@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="800" height="300" src="https://storage.googleapis.com/virgil-f3dca.appspot.com/proximasocial2.png">
+  <img width="800" height="250" src="https://storage.googleapis.com/virgil-f3dca.appspot.com/proximasocial2.png">
 </p>
 
 # Proxima 
