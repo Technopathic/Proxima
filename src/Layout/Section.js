@@ -25,6 +25,8 @@ const Section = (props) => {
         zIndex,
         lineHeight,
         color,
+        boxShadow,
+        radius,
         children,
         ...rest
     } = props
@@ -50,6 +52,8 @@ const Section = (props) => {
         z-index: ${zIndex ? zIndex : theme.section.zIndex};
         line-height: ${lineHeight ? lineHeight : theme.section.lineHeight};
         color: ${color ? color : theme.section.color};
+        box-shadow: ${boxShadow ? boxShadow : theme.section.boxShadow};
+        border-radius: ${radius ? radius : theme.section.radius};
 
         ${props.css}
     `

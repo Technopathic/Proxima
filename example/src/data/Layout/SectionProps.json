@@ -21,6 +21,8 @@
         { "row": ["left", "auto"]},
         { "row": ["right", "auto"]},
         { "row": ["zIndex", "auto"]},
-        { "row": ["lineHeight", "normal"]}
+        { "row": ["lineHeight", "normal"]},
+        { "row": ["boxShadow", "none"]},
+        { "row": ["radius", "0px"]}
     ]
 }

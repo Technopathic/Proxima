@@ -329,7 +329,9 @@ const theme = {
         right: 'auto',
         zIndex: 'auto',
         lineHeight: 'normal',
-        color: '#000000'
+        color: '#000000',
+        boxShadow: 'none',
+        radius: '0px'
     },
     select: {
         background: 'transparent',

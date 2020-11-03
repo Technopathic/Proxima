@@ -8631,10 +8631,10 @@ property-information@^5.0.0:
   dependencies:
     xtend "^4.0.0"
 
-proxima-ui@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/proxima-ui/-/proxima-ui-1.0.1.tgz#853e41460d57af0f3c87be0734f09c3c4e1b6562"
-  integrity sha512-93y6L3wJkrF+s0Zur+3d3g/PX2gfBRxylPchYSoSUSNeQ0rQORHD0mAIQeXwQFdpfeH9rH4E3mh5ooQVG9rfYA==
+proxima-ui@^1.0.2:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/proxima-ui/-/proxima-ui-1.0.4.tgz#9415cbfd71ce0e24851794f60daeecd437f5988b"
+  integrity sha512-Cr9eT831ZizV3s+a2F3gmIB9sLP1EzDmoKMiBXdQ17kU0pG53A3K4HXOsldzdS/7jlej39vawvgfepli+9tqHQ==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
