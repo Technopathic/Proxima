@@ -5,7 +5,7 @@
     "body": [
         { "row": ["size", "18px"]},
         { "row": ["lineHeight", "1.8"]},
-        { "row": ["color", "theme.color.textColor"]},
+        { "row": ["color", "#000000"]},
         { "row": ["margin", "0px"]},
         { "row": ["fontWeight", "normal"]},
         { "row": ["textAlign", "left"]},

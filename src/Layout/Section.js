@@ -6,6 +6,10 @@ import { useTheme } from 'emotion-theming'
 const Section = (props) => {
     const theme = useTheme()
     const {
+        width,
+        height,
+        minWidth,
+        minHeight,
         maxWidth,
         maxHeight,
         display,
@@ -26,7 +30,10 @@ const Section = (props) => {
     } = props
 
     const section = css`
-        width:100%;
+        width: ${width ? width : theme.section.width};
+        height: ${height ? height : theme.section.height};
+        min-width: ${minWidth ? minWidth : theme.section.minWidth};
+        min-height: ${minHeight ? minHeight : theme.section.minHeight};
         max-width: ${maxWidth ? maxWidth : theme.section.maxWidth ? theme.section.maxWidth : 'none'};
         max-height: ${maxHeight ? maxHeight : theme.section.maxHeight ? theme.section.maxHeight : 'none'};
         box-sizing:border-box;

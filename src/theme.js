@@ -311,6 +311,10 @@ const theme = {
         marginMobile: '0px'
     },
     section: {
+        width: '100%',
+        height: 'auto',
+        minWidth: '0px',
+        minHeight: '0px',
         maxWidth: 'none',
         maxHeight: 'none',
         display: 'flex',
