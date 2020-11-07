@@ -227,7 +227,7 @@ const theme = {
         alignItems: 'flex-start',
         flexWrap: 'nowrap'
     },
-    listitem: {
+    listItem: {
         margin: '0 auto',
         padding: '0px',
         background: 'transparent',
