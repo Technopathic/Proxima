@@ -19,6 +19,10 @@ const ListItem = (props) => {
         minHeight,
         maxWidth,
         maxHeight,
+        display,
+        flexDirection,
+        justifyContent,
+        alignItems,
         children,
         ...rest
     } = props
@@ -36,6 +40,10 @@ const ListItem = (props) => {
         max-width: ${maxWidth ? maxWidth : theme.listitem.maxWidth};
         max-height: ${maxHeight ? maxHeight: theme.listitem.maxHeight};
         box-sizing: border-box;
+        display:${display ? display : theme.listItem.display};
+        flex-direction: ${flexDirection ? flexDirection : theme.listItem.flexDirection};
+        justify-content: ${justifyContent ? justifyContent : theme.listItem.justifyContent};
+        align-items: ${alignItems ? alignItems : theme.listItem.alignItems};
 
         ${props.css}
     `

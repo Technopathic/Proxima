@@ -237,7 +237,11 @@ const theme = {
         minWidth: '0px',
         minHeight: '0px',
         maxWidth: 'none',
-        maxHeight: 'none'
+        maxHeight: 'none',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'flex-start',
+        alignItems: 'stretch'
     },
     main: {
         background: 'transparent',

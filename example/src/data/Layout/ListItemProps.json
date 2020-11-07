@@ -15,6 +15,10 @@
         { "row": ["minWidth", "0px"]},
         { "row": ["minHeight", "0px"]},
         { "row": ["maxWidth", "none"]},
-        { "row": ["maxHeight", "none"]}
+        { "row": ["maxHeight", "none"]},
+        { "row": ["display", "flex"]},
+        { "row": ["flexDirection", "row"]},
+        { "row": ["justifyContent", "flex-start"]},
+        { "row": ["alignItems", "stretch"]}
     ]
 }
