@@ -16,7 +16,7 @@
         { "row": ["minHeight", "0px"]},
         { "row": ["maxWidth", "none"]},
         { "row": ["maxHeight", "none"]},
-        { "row": ["display", "flex"]},
+        { "row": ["display", "list-item"]},
         { "row": ["flexDirection", "row"]},
         { "row": ["justifyContent", "flex-start"]},
         { "row": ["alignItems", "stretch"]}

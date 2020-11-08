@@ -238,7 +238,7 @@ const theme = {
         minHeight: '0px',
         maxWidth: 'none',
         maxHeight: 'none',
-        display: 'flex',
+        display: 'list-item',
         flexDirection: 'row',
         justifyContent: 'flex-start',
         alignItems: 'stretch'
