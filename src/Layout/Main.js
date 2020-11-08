@@ -29,7 +29,7 @@ const Main = (props) => {
         display:flex;
         flex-direction:${flexDirection ? flexDirection : theme.main.flexDirection};
         flex-grow:1;
-        padding: ${padding ? paddding : theme.main.padding};
+        padding: ${padding ? padding : theme.main.padding};
         margin: ${margin ? margin : theme.main.margin};
         position:relative;
         align-items: ${alignItems ? alignItems : theme.main.alignItems};
