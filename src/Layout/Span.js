@@ -22,6 +22,7 @@ const Span = (props) => {
         flexDirection,
         alignItems,
         justifyContent,
+        textAlign,
         children,
         ...rest
     } = props
@@ -43,6 +44,7 @@ const Span = (props) => {
         flex-direction: ${flexDirection ? flexDirection : theme.span.flexDirection};
         align-items: ${alignItems ? alignItems : theme.span.alignItems};
         justify-content: ${justifyContent ? justifyContent : theme.span.justifyContent};
+        text-align: ${textAlign ? textAlign : theme.span.textAlign};
 
         ${props.css}
     `;

@@ -45,8 +45,8 @@ const Drawer = ( props ) => {
         position: ${props.sticky ? 'relative' : 'fixed'};
         top:${props.top ? '0px' : 'auto'};
         bottom: ${props.bottom ? '0px' : 'auto'};
-        right: ${props.right ? '0px' : 'auto'};
-        left: ${props.left ? '0px' : 'auto'};
+        right: ${props.right || props.bottom || props.top ? '0px' : 'auto'};
+        left: ${props.left || props.bottom || props.top ? '0px' : 'auto'};
         box-shadow:${props.boxShadow ? props.boxShadow : 'none'};
         z-index:98;
         padding:${props.bottom ? '15px 15px 80px 15px' : '0px'};
@@ -57,10 +57,10 @@ const Drawer = ( props ) => {
     `
 
     const drawerSlide = css`
-        top:${props.top ? '-110vh' : 'auto'};
-        bottom:${props.bottom ? '-110vh' : 'auto'};
-        left:${props.left ? '-480px' : 'auto'};
-        right:${props.right ? '-480px' : 'auto'};
+        top:${props.top ? '-110vh' : '0px'};
+        bottom:${props.bottom ? '-110vh' : '0px'};
+        left:${props.left || props.bottom || props.top ? '-480px' : '0px'};
+        right:${props.right || props.bottom || props.top ? '-480px' : '0px'};
         z-index:98;
     `
 

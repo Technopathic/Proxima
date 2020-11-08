@@ -15,6 +15,7 @@
         { "row": ["left", "auto"]},
         { "row": ["right", "auto"]},
         { "row": ["zIndex", "auto"]},
-        { "row": ["lineHeight", "1.5"]}
+        { "row": ["lineHeight", "1.5"]},
+        { "row": ["textAlign", "left"]}    
     ]
 }

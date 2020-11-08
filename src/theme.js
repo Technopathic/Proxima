@@ -375,7 +375,8 @@ const theme = {
         display: 'flex',
         flexDirection: 'row',
         alignItems:'stretch',
-        justifyContent: 'flex-start'
+        justifyContent: 'flex-start',
+        textAlign: 'left'
     },
     table: {
         border: '1px solid #000000',
