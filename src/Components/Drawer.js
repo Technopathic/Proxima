@@ -56,13 +56,26 @@ const Drawer = ( props ) => {
         box-sizing:border-box;
     `
 
-    const drawerSlide = css`
-        top:${props.top ? '-110vh' : props.top};
-        bottom:${props.bottom ? '-110vh' : props.bottom};
+    let drawerSlide = css`       
         left:${props.left ? '-480px' : props.left};
-        right:${props.right ? '-480px' : props.right};
         z-index:98;
     `
+    if(props.slideUp) {
+        drawerSlide = css`
+            top:${props.top ? '-110vh' : props.top};
+            z-index:98;
+        `
+    } else if(props.slideDown) {
+        drawerSlide = css`
+            bottom:${props.bottom ? '-110vh' : props.bottom};
+            z-index:98;
+        `
+    } else if(props.slideRight) {
+        drawerSlide = css`
+            right:${props.right ? '-480px' : props.right};
+            z-index:98;
+        `
+    }
 
     const drawerIcon = css`
         display:flex;
