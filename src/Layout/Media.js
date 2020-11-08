@@ -27,6 +27,8 @@ const Media = (props) => {
         noWrapper,
         isLoading,
         wrapperStyle,
+        iframeHeight,
+        iframeWidth,
         ...rest
     } = props
 
@@ -48,8 +50,8 @@ const Media = (props) => {
         }
 
         iframe {
-            height:600px;
-            width:768px;
+            height:${iframeHeight ? iframeHeight : theme.media.iframeHeight };
+            width:${iframeWidth ? iframeWidth : theme.media.iframeWidth};
         }
 
         ${cssWrapper}
