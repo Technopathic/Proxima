@@ -74,7 +74,7 @@ export const Table = (props) => {
                 {data.head ?
                     <thead>
                         {data.head.map((head, i) => (
-                            <tr>
+                            <tr key={i}>
                                 {head.row.map((item, j) => (
                                     <th>{item}</th>
                                 ))}
@@ -86,7 +86,7 @@ export const Table = (props) => {
                 {data.body ?
                     <tbody>
                         {data.body.map((body, i) => (
-                            <tr>
+                            <tr key={i}>
                                 {body.row.map((item, j) => (
                                     <td>{item}</td>
                                 ))}
