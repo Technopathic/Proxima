@@ -19,6 +19,8 @@
         { "row": ["imagePlaceholder", "false"]},
         { "row": ["isLoading", "false"]},
         { "row": ["outerWidth", "100%"]},
-        { "row": ["outerHeight", "auto"]}
+        { "row": ["outerHeight", "auto"]},
+        { "row": ["iframeHeight", "600px"]},
+        { "row": ["iframeWidth", "768px"]}
     ]
 }

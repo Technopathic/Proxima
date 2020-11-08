@@ -5,8 +5,8 @@
     "body": [
         { "row": ["points", "true"]},
         { "row": ["numbers", "false"]},
-        { "row": ["type", "theme.list.numbersType"]},
-        { "row": ["maxWidth", "theme.list.maxWidth"]},
+        { "row": ["type", "numbersType"]},
+        { "row": ["maxWidth", "768px"]},
         { "row": ["margin", "0 auto"]},
         { "row": ["padding", "0px"]},
         { "row": ["flexDirection", "column"]},

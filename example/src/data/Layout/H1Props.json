@@ -10,7 +10,7 @@
         { "row": ["padding", "0px"]},
         { "row": ["textAlign", "left"]},
         { "row": ["textTransform", "none"]},
-        { "row": ["fontFamily", "theme.text.fontFamilyHeading"]},
+        { "row": ["fontFamily", "fontFamilyHeading"]},
         { "row": ["fontWeight", "700"]},
         { "row": ["letterSpacing", "-2.5px"]}
 

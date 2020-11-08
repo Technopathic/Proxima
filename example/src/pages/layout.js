@@ -69,181 +69,181 @@ const Layout = (props) => (
             <Section margin="64px 0px 0px 0px">
               <H2>A</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={AProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={AProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Article</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={ArticleProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={ArticleProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Aside</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={AsideProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={AsideProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Blockquote</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={BlockquoteProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={BlockquoteProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Bold</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={BoldProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={BoldProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Button</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={ButtonProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={ButtonProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Column</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={ColumnProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={ColumnProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Container</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={ContainerProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={ContainerProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Divider</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={DividerProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={DividerProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Full</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={FullProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={FullProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Grid</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={GridProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={GridProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>H1</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={H1Props} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={H1Props} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>H2</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={H2Props} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={H2Props} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>H3</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={H3Props} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={H3Props} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>H4</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={H4Props} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={H4Props} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Icon</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={IconProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={IconProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Input</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={InputProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={InputProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Italic</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={ItalicProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={ItalicProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>List</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={ListProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={ListProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>ListItem</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={ListItemProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={ListItemProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Main</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={MainProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={MainProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Media</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={MediaProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={MediaProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>P</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={PProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={PProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Pre</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={PreProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={PreProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Row</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={RowProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={RowProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Section</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={SectionProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={SectionProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Select</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={SelectProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={SelectProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Span</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={SpanProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={SpanProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Table</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={TableProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={TableProps} />
             </Section>
 
             <Section margin="64px 0px 0px 0px">
               <H2>Tag</H2>
               <Divider />
-              <Table cellWidth="20%" border="1px solid #000000" collapse padding="10px" data={TagProps} />
+              <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={TagProps} />
             </Section>
 
           </Column>

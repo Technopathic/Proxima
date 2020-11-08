@@ -5,7 +5,7 @@
     "body": [
         { "row": ["margin", "0 auto"]},
         { "row": ["padding", "0px"]},
-        { "row": ["color", "theme.color.textColor"]},
+        { "row": ["color", "textColor"]},
         { "row": ["background", "transparent"]},
         { "row": ["rounded", "false"]},
         { "row": ["circle", "false"]},

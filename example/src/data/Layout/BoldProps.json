@@ -3,6 +3,6 @@
         {"row": ["Props", "Default"]}
     ],
     "body": [
-        { "row": ["fontFamily", "theme.text.fontFamilyBold" ]}
+        { "row": ["fontFamily", "fontFamilyBold" ]}
     ]
 }

@@ -50,7 +50,6 @@ If you'd like to contribute, you can begin by using the Proxima UI system and sp
 * ReactJS
 * Emotion
 * Axios
-* React-Syntax-Highlighter
 
 ## License
 MIT

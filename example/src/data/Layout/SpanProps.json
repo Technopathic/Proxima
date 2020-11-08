@@ -4,7 +4,7 @@
     ],
     "body": [
         { "row": ["size", "18px"]},
-        { "row": ["color", "theme.text.smallText"]},
+        { "row": ["color", "#000000"]},
         { "row": ["margin", "0 auto"]},
         { "row": ["padding", "0px"]},
         { "row": ["fontWeight", "normal"]},

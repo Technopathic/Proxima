@@ -15,7 +15,7 @@
         { "row": ["maxHeight", "none"]},
         { "row": ["margin", "0px"]},
         { "row": ["padding", "0px"]},
-        { "row": ["color", "theme.color.tetColor"]},
+        { "row": ["color", "#000000"]},
         { "row": ["cellWidth", "auto"]}
     ]
 }
