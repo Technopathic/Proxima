@@ -28,7 +28,7 @@ const Input = (props) => {
         padding: ${padding ? padding : theme.input.padding};
         border-radius:${radius ? radius : theme.input.radius};
         color:${color ? color : theme.input.color};
-        font-size:${size ? size : theme.a.fontSize};
+        font-size:${fontSize ? fontSize : theme.a.fontSize};
         width:${width ? width : theme.input.width}; 
         box-sizing:border-box;
 
