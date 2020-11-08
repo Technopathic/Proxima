@@ -39,7 +39,7 @@ const Drawer = ( props ) => {
 
     const drawerContainer = css`
         height:${props.top || props.bottom ? 'auto' : '100vh'};
-        width:${props.show && !isMobile ? '100%' : '0px'};
+        width:${props.show && !isMobile ? '100%' : props.bottom ? '100%' : props.top ? '100%' : props.width ? props.width : '0px'};
         max-width:${props.maxWidth ? props.maxWidth : 'none'};
         background:#FFFFFF;
         position: ${props.sticky ? 'relative' : 'fixed'};
