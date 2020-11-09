@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/Proxima/Layout">
             <Layout />
           </Route>
-          <Route path="/Proxima">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>

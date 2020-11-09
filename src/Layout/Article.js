@@ -7,7 +7,11 @@ const Article = (props) => {
     const theme = useTheme()
     const {
         width,
+        minWidth,
         maxWidth,
+        height,
+        minHeight,
+        maxHeight,
         display,
         flexDirection,
         margin,
@@ -28,6 +32,10 @@ const Article = (props) => {
     const article = css`
         width: ${width ? width : theme.article.width};
         max-width: ${maxWidth ? maxWidth : theme.article.maxWidth};
+        min-width: ${minWidth ? minWidth : theme.article.minWidth};
+        height: ${height ? height : theme.article.height};
+        max-height: ${maxHeight ? maxHeight : theme.article.maxHeight};
+        min-height: ${minHeight ? minHeight : theme.article.minHeight};
         box-sizing:border-box;
         display: ${display ? display : theme.article.display};
         flex-direction: ${flexDirection ? flexDirection : theme.article.flexDirection};

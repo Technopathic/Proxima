@@ -8,17 +8,11 @@ import {
     Section, 
     Row, 
     Column ,
-    A,
     Divider,
     P,
-    Pre,
     Tag,
     Table,
-    Thead,
-    Tbody,
-    Th,
-    Tr,
-    Td
+    Media
 } from 'proxima-ui'
 
 import AProps from '../data/Layout/AProps.json'
@@ -195,6 +189,11 @@ const Layout = (props) => (
             <Section margin="64px 0px 0px 0px">
               <H2>Media</H2>
               <Divider />
+              <Section width="768px">
+                <Media mediaWrapper={true}>
+                  <img src="https://storage.googleapis.com/oofapp-93337.appspot.com/remark/8bdef406.png" />
+                </Media>
+              </Section>
               <Table cellWidth="20%" border="1px solid #000000"  padding="10px" data={MediaProps} />
             </Section>
 

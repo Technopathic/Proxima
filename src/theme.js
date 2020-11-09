@@ -26,7 +26,11 @@ const theme = {
     },
     article: {
         width: '100%',
+        minWidth: '0px',
         maxWidth: '768px',
+        height: '100%',
+        minHeight: '0px',
+        maxHeight: 'none',
         display: 'flex',
         flexDirection: 'column',
         margin: '0 auto',
