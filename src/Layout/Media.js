@@ -114,7 +114,7 @@ const Media = (props) => {
             return (
                 <div css={hardEdges ? [imageLayer, hardEdgesStyle] : imageLayer }>
                     <div css={isLoading ? imageLoading : [imageLoading, removeImage]} {...rest} />
-                    <div css={isLoading ? image : [image, removeBlur]} {...rest} />
+                    <div css={isLoading ? imageStyle : [imageStyle, removeBlur]} {...rest} />
                 </div>
             )
         } else if(src) {
