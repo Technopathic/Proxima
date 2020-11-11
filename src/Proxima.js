@@ -7,7 +7,7 @@ import { cache } from "emotion"
 import theme from './theme'
 import global from './global'
 
-function Proxima(props) {
+const Proxima = (props) => {
 
     let themeObject = theme;
 
