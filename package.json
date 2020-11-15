@@ -1,6 +1,6 @@
 {
   "name": "proxima-ui",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "Proxima User Interface Library",
   "author": "Technopathic",
   "license": "MIT",
@@ -51,6 +51,8 @@
     "dist"
   ],
   "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@emotion/babel-preset-css-prop": "^11.0.0",
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
     "axios": "^0.21.0"
