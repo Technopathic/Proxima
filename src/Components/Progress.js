@@ -1,3 +1,5 @@
+/** @jsx jsx */
+
 import { useEffect, useState } from 'react'
 
 const Progress = ( props ) => {

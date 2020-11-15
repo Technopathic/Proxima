@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
 import React, { useState, useEffect } from 'react'
-import { css, jsx } from '@emotion/core'
+import { css, jsx } from '@emotion/react'
 
 const Drawer = ( props ) => {
     const [isMobile, setIsMobile] = useState(false)

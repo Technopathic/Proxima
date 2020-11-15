@@ -1,12 +1,13 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Blockquote = (props) => {
     const theme = useTheme()
     const {
         fontFamily,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -24,6 +25,14 @@ const Blockquote = (props) => {
         line-height: 1.9em;
         margin-top: 20px;
         box-sizing: border-box;
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
 
         ${props.css}
     `

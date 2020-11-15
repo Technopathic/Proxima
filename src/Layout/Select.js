@@ -1,8 +1,7 @@
 /** @jsx jsx */
 
 import { useState, useEffect } from 'react'
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Select = (props) => {
     const theme = useTheme()
@@ -32,6 +31,8 @@ const Select = (props) => {
         disabledOptionOpacity,
         onChange,
         data,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -64,6 +65,14 @@ const Select = (props) => {
         justify-content:space-between;
         align-items:center;
         border-radius: ${radius ? radius : theme.select.radius};
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
 
         ${props.css}
     `;

@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Icon = (props) => {
     const theme = useTheme()
@@ -23,6 +22,8 @@ const Icon = (props) => {
         hoverColor,
         hoverOpacity,
         activeOpacity,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -52,6 +53,14 @@ const Icon = (props) => {
 
         &:active {
             opacity:${activeOpacity ? activeOpacity : theme.icon.activeOpacity};
+        }
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
         }
 
         ${props.css}

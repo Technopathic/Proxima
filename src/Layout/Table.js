@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 export const Table = (props) => {
     const theme = useTheme()
@@ -20,6 +19,8 @@ export const Table = (props) => {
         color,
         cellWidth,
         cellHeight,
+        before,
+        after,
         children,
         data,
         ...rest
@@ -66,6 +67,15 @@ export const Table = (props) => {
             width: ${cellWidth ? cellWidth : theme.table.cellWidth};
             height: ${cellHeight ? cellHeight : theme.table.cellHeight};
         }
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `
     if(data) {

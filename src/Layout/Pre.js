@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Pre = (props) => {
     const theme = useTheme()
@@ -15,6 +14,8 @@ const Pre = (props) => {
         color,
         lineHeight,
         letterSpacing,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -30,6 +31,14 @@ const Pre = (props) => {
         line-height: ${lineHeight ? lineHeight : theme.pre.lineHeight};
         letter-spacing: ${letterSpacing ? letterSpacing : theme.pre.letterSpacing};
 
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `;
 

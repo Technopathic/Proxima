@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Grid = (props) => {
     const theme = useTheme()
@@ -17,6 +16,8 @@ const Grid = (props) => {
         marginMobile,
         columnsTablet,
         columnsMobile,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -31,6 +32,14 @@ const Grid = (props) => {
         margin:${margin ? margin : theme.grid.margin};
         box-sizing: border-box;
         min-height:${minHeight ? minHeight : theme.grid.minHeight};
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
 
         ${maxWidth &&
             `@media(max-width: ${maxWidth}) {

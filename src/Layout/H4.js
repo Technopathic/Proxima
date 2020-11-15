@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const H4 = (props) => {
     const theme = useTheme()
@@ -16,6 +15,8 @@ const H4 = (props) => {
         textTransform,
         fontFamily,
         fontWeight,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -24,15 +25,23 @@ const H4 = (props) => {
         font-size:${fontSize ? fontSize : theme.headingFour.fontSize};
         letter-spacing: ${letterSpacing ? letterSpacing : theme.headingFour.letterSpacing};
         line-height: ${lineHeight ? lineHeight : theme.headingFour.lineHeight};
-        margin ${margin ? margin : theme.headingFour.margin};
+        margin: ${margin ? margin : theme.headingFour.margin};
         padding: ${padding ? padding : theme.headingFour.padding };
         color: ${color ? color : theme.headingFour.color };
         text-align: ${textAlign ? textAlign : theme.headingFour.textAlign};
         text-transform: ${textTransform ? textTransform : theme.headingFour.textTransform};
         font-family: ${fontFamily ? fontFamily : theme.text.fontFamilyHeading };
         font-weight: ${fontWeight ? fontWeight : theme.headingFour.fontWeight};
+        
+        &:before {
+            ${before}
+        }
 
-        ${css}
+        &:after {
+            ${after}
+        }
+
+        ${props.css}
     `;
 
     return (

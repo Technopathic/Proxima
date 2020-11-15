@@ -1,12 +1,13 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Italic = (props) => {
     const theme = useTheme()
     const {
         fontFamily,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -14,7 +15,15 @@ const Italic = (props) => {
     const italic = css`
         font-style:italic;
         font-family: ${fontFamily ? fontFamily : theme.text.fontFamilyRegular };
+        
+        &:before {
+            ${before}
+        }
 
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `
 

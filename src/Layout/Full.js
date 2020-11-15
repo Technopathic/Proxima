@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Full = (props) => {
     const theme = useTheme()
@@ -9,6 +8,8 @@ const Full = (props) => {
         background,
         padding,
         margin,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -26,6 +27,14 @@ const Full = (props) => {
         flex-direction: column;
         align-items: center;
         overflow: hidden;
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
 
         ${props.css}
     `;

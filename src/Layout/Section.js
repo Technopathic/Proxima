@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Section = (props) => {
     const theme = useTheme()
@@ -27,6 +26,8 @@ const Section = (props) => {
         color,
         boxShadow,
         radius,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -54,6 +55,14 @@ const Section = (props) => {
         color: ${color ? color : theme.section.color};
         box-shadow: ${boxShadow ? boxShadow : theme.section.boxShadow};
         border-radius: ${radius ? radius : theme.section.radius};
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
 
         ${props.css}
     `

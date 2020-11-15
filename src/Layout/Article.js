@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Article = (props) => {
     const theme = useTheme()
@@ -25,6 +24,8 @@ const Article = (props) => {
         right,
         zIndex,
         lineHeight,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -51,6 +52,14 @@ const Article = (props) => {
         z-index: ${zIndex ? zIndex : theme.article.zIndex};
         line-height: ${lineHeight ? lineHeight : theme.article.lineHeight};
 
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `;
 

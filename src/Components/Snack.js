@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css, keyframes } from '@emotion/core'
+import { jsx, css, keyframes } from '@emotion/react'
 
 import Row from '../Layout/Row'
 import P from '../Layout/P'

@@ -1,11 +1,25 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const P = (props) => {
     const theme = useTheme()
-    const { fontSize, lineHeight, margin, padding, fontWeight, color, wordBreak, wordWrap, textAlign, textTransform, children, ...rest } = props
+    const { 
+        fontSize, 
+        lineHeight, 
+        margin, 
+        padding, 
+        fontWeight, 
+        color, 
+        wordBreak, 
+        wordWrap, 
+        textAlign, 
+        textTransform, 
+        before,
+        after,
+        children, 
+        ...rest 
+    } = props
 
     const p = css`
         font-size: ${fontSize ? fontSize : theme.p.fontSize};
@@ -21,6 +35,14 @@ const P = (props) => {
         text-align: ${textAlign ? textAlign : theme.p.textAlign};
         text-transform: ${textTransform ? textTransform : theme.p.textTransform};
 
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `;
 

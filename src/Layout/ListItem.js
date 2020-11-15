@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const ListItem = (props) => {
     const theme = useTheme()
@@ -23,6 +22,8 @@ const ListItem = (props) => {
         flexDirection,
         justifyContent,
         alignItems,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -44,7 +45,15 @@ const ListItem = (props) => {
         flex-direction: ${flexDirection ? flexDirection : theme.listItem.flexDirection};
         justify-content: ${justifyContent ? justifyContent : theme.listItem.justifyContent};
         align-items: ${alignItems ? alignItems : theme.listItem.alignItems};
+       
+        &:before {
+            ${before}
+        }
 
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `
 

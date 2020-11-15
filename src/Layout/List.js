@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const List = (props) => {
     const theme = useTheme()
@@ -16,6 +15,8 @@ const List = (props) => {
         flexWrap,
         numbers,
         points,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -32,6 +33,14 @@ const List = (props) => {
         justify-content: ${justifyContent ? justifyContent : theme.list.justifyContent};
         align-items: ${alignItems ? alignItems : theme.list.alignItems};
         flex-wrap: ${flexWrap ? flexWrap : theme.list.flexWrap};
+        
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
 
         ${props.css}
     `

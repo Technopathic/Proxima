@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const H2 = (props) => {
     const theme = useTheme()
@@ -16,6 +15,8 @@ const H2 = (props) => {
         textTransform,
         fontFamily,
         fontWeight,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -26,12 +27,20 @@ const H2 = (props) => {
         line-height: ${lineHeight ? lineHeight : theme.headingTwo.lineHeight};
         padding:${padding ? padding : theme.headingTwo.padding};
         color: ${color ? color : theme.headingTwo.color };
-        margin ${margin ? margin : theme.headingTwo.margin};
+        margin: ${margin ? margin : theme.headingTwo.margin};
         text-align: ${textAlign ? textAlign : theme.headingTwo.textAlign};
         text-transform: ${textTransform ? textTransform : theme.headingTwo.textTransform};
         font-family: ${fontFamily ? fontFamily : theme.text.fontFamilyHeading };
         font-weight: ${fontWeight ? fontWeight : theme.headingTwo.fontWeight};
 
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `;
 

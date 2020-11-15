@@ -8,6 +8,7 @@
         { "row": ["background", "#000000"]},
         { "row": ["backgroundColor", "transparent"]},
         { "row": ["width", "100%"]},
+        { "row": ["maxWidth", "1024px"]},
         { "row": ["height", "auto"]},
         { "row": ["blur", "0px"]},
         { "row": ["hardEdges", "false"]},

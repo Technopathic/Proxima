@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Span = (props) => {
     const theme = useTheme()
@@ -23,6 +22,8 @@ const Span = (props) => {
         alignItems,
         justifyContent,
         textAlign,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -45,6 +46,14 @@ const Span = (props) => {
         align-items: ${alignItems ? alignItems : theme.span.alignItems};
         justify-content: ${justifyContent ? justifyContent : theme.span.justifyContent};
         text-align: ${textAlign ? textAlign : theme.span.textAlign};
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
 
         ${props.css}
     `;

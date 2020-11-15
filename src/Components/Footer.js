@@ -1,9 +1,8 @@
 /** @jsx jsx */
 
 import { useState, useEffect } from 'react'
-import { jsx } from '@emotion/core'
+import { jsx, useTheme } from '@emotion/react'
 import styled from "@emotion/styled"
-import { useTheme } from 'emotion-theming'
 
 const FooterWrapper = styled.footer`
     width:100%;

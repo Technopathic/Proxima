@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 import Full from './Full'
 
@@ -23,12 +22,15 @@ const Media = (props) => {
         blur,
         hardEdges,
         width,
+        maxWidth,
         height,
         noWrapper,
         isLoading,
         wrapperStyle,
         iframeHeight,
         iframeWidth,
+        before,
+        after,
         ...rest
     } = props
 
@@ -39,9 +41,9 @@ const Media = (props) => {
         flex-direction:column;
         width:${outerWidth ? outerWidth: '100%'};
         height: ${outerHeight ? outerHeight: 'auto'};
-        max-width:768px;
+        max-width: ${maxWidth ? maxWidth : theme.media.maxWidth };
         overflow:hidden;
-        margin:0 auto;
+        margin:${margin ? margin : theme.media.margin};
 
         img {
             height:auto;
@@ -52,6 +54,14 @@ const Media = (props) => {
         iframe {
             height:${iframeHeight ? iframeHeight : theme.media.iframeHeight };
             width:${iframeWidth ? iframeWidth : theme.media.iframeWidth};
+        }
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
         }
 
         ${cssWrapper}
@@ -87,6 +97,14 @@ const Media = (props) => {
         background-position:center center;
         filter: blur(${blur ? blur : '0px'});
         transition: filter linear 300ms;
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
         
         ${props.css}
     `

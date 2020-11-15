@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Aside = (props) => {
     const theme = useTheme()
@@ -26,6 +25,8 @@ const Aside = (props) => {
         right,
         zIndex,
         fontSize,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -54,7 +55,13 @@ const Aside = (props) => {
         z-index: ${zIndex ? zIndex : theme.aside.zIndex};
         overflow: auto;
 
+        &:before {
+            ${before}
+        }
 
+        &:after {
+            ${after}
+        }
 
         ${props.css}
     `;

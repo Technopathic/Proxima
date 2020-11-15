@@ -264,7 +264,8 @@ const theme = {
         padding: '20px 0px 20px 0px',
         margin: '15px 0px 15px 0px',
         iframeHeight: '600px',
-        iframeWidth: '768px'
+        iframeWidth: '768px',
+        maxWidth: '1024px'
     },
     p: {
         fontSize: '18px',

@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Divider = (props) => {
     const theme = useTheme()
@@ -11,6 +10,8 @@ const Divider = (props) => {
         color,
         marginTop,
         marginBottom,
+        before,
+        after,
         ...rest
     } = props
 
@@ -21,6 +22,14 @@ const Divider = (props) => {
         margin-top: ${marginTop ? marginTop : theme.divider.marginTop};
         margin-bottom: ${marginBottom ? marginBottom : theme.divider.marginBottom};
 
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `;
 

@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Input = (props) => {
     const theme = useTheme()
@@ -15,6 +14,8 @@ const Input = (props) => {
         color,
         fontSize,
         width,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -32,6 +33,14 @@ const Input = (props) => {
         width:${width ? width : theme.input.width}; 
         box-sizing:border-box;
 
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `;
 

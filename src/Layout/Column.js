@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Column = (props) => {
     const theme = useTheme()
@@ -33,6 +32,8 @@ const Column = (props) => {
         boxSizing,
         paddingMobile,
         marginMobile,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -63,6 +64,14 @@ const Column = (props) => {
         z-index: ${zIndex ? zIndex : theme.column.zIndex};
         flex-wrap: ${flexWrap ? 'wrap' : theme.column.flexWrap};
         box-sizing: ${boxSizing ? boxSizing : theme.column.boxSizing};
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
 
         ${maxWidth &&
             `@media(max-width: ${maxWidth}) {

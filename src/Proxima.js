@@ -1,8 +1,5 @@
-/** @jsx jsx */
-
-import { Global, CacheProvider, css, jsx } from "@emotion/core"
-import { ThemeProvider } from "emotion-theming"
-import { cache } from "emotion"
+import React from 'react'
+import { Global, css, ThemeProvider } from "@emotion/react"
 
 import theme from './theme'
 import global from './global'
@@ -38,12 +35,12 @@ const Proxima = (props) => {
     }
     
     return(
-        <CacheProvider value={cache}>
-            <ThemeProvider theme={themeObject}>
-            <Global styles={css`${props.global || global}`}/>
-                {props.children}
-            </ThemeProvider>
-        </CacheProvider>
+      <React.Fragment>
+        <Global styles={css`${props.global || global}`}/>
+        <ThemeProvider theme={themeObject}>
+            {props.children}
+        </ThemeProvider>
+      </React.Fragment>
     )
 }
 

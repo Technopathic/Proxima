@@ -1,12 +1,13 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Bold = (props) => {
     const theme = useTheme()
     const {
         fontFamily,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -14,7 +15,15 @@ const Bold = (props) => {
     const bold = css`
         font-weight:bold;
         font-family: ${fontFamily ? fontFamily : theme.text.fontFamilyBold };
+        
+        &:before {
+            ${before}
+        }
 
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `
 

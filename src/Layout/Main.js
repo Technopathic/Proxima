@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Main = (props) => {
     const theme = useTheme()
@@ -20,6 +19,8 @@ const Main = (props) => {
         maxHeight,
         paddingMobile,
         marginMobile,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -41,6 +42,14 @@ const Main = (props) => {
         max-width: ${maxWidth ? maxWidth : theme.main.maxWidth};
         max-height: ${maxHeight ? maxHeight: theme.main.maxHeight};
         box-sizing:border-box;
+
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
         
         ${maxWidth &&
             `@media(max-width: ${maxWidth}) {

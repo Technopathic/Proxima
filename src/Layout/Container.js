@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const Container = (props) => {
     const theme = useTheme()
@@ -13,6 +12,8 @@ const Container = (props) => {
         margin,
         padding,
         background,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -27,6 +28,14 @@ const Container = (props) => {
         padding: ${padding ? padding : theme.container.padding};
         background: ${background ? background : theme.container.background };
 
+        &:before {
+            ${before}
+        }
+
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `;
 

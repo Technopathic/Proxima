@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, css } from '@emotion/core'
-import { useTheme } from 'emotion-theming'
+import { jsx, css, useTheme } from '@emotion/react'
 
 const H3 = (props) => {
     const theme = useTheme()
@@ -16,6 +15,8 @@ const H3 = (props) => {
         textTransform,
         fontFamily,
         fontWeight,
+        before,
+        after,
         children,
         ...rest
     } = props
@@ -31,7 +32,15 @@ const H3 = (props) => {
         text-transform: ${textTransform ? textTransform : theme.headingThree.textTransform};
         font-family: ${fontFamily ? fontFamily : theme.text.fontFamilyHeading };
         font-weight: ${fontWeight ? fontWeight : theme.headingThree.fontWeight};
+        
+        &:before {
+            ${before}
+        }
 
+        &:after {
+            ${after}
+        }
+        
         ${props.css}
     `;
 
